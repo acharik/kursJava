@@ -105,7 +105,7 @@ public class SignController {
                     stage.showAndWait();*/
         });
 
-
+            ;
     }
     public boolean isEmail(String s) {
         return s.matches("^[-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\\.[a-zA-Z]{2,4}");

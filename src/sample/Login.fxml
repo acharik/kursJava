@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <ImageView fitHeight="408.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/267405.jpg" />
+         </image>
+      </ImageView>
+        <Label layoutX="224.0" layoutY="30.0" prefHeight="45.0" prefWidth="228.0" text="Че вошел гнида" textFill="#dfd628">
+            <font>
+                <Font name="Bell MT" size="28.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
